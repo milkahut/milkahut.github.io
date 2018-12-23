@@ -4,38 +4,45 @@ title: Milka Hutagalung
 ---
 <div class="blurb">
 	<h1>Milka Hutagalung</h1>
-	<h2>About Me</h2>
-	<p>I recently finished my PhD from  University of Kassel. 
-		I was a working with the research group: Theoretical Computer Science/Formal Methods 
-		in the Department of Electrical Engineering and Computer Science, University of Kassel,
-		led by Prof. Dr. Martin Lange.</p>
-	
-	<h2>Projects</h2>
 	<p>Here is some projects I have made during my free time (mostly related to data analysis  and deep learning) and 
 		during my PhD research (mostly related to automata theory and model-checking)</p>
 	
-	<h3>Sentiment Analysis</h3>
+	<h2>Sentiment Analysis</h2>
 	<p>I build a model that read in movie reviews from IMDB and make prediction whether
 		it has positive or negative sentiment. I use recurrent neural network (RNN) 
 		that also employs long short-term memory (LSTM). This make the model  does not only consider
 		individual words, but also the order they appear in. I have trained  the model 
 		on 25.000 reviews. </p>
 	
-	<h3>Flower Classifier </h3>
+	<h2>Flower Classifier </h2>
 	<p>I build a model that take a flower image and classify it over 102 types of flowers. 
 		I consider the 102-Oxford Flower dataset that is available here. In order to have a high accuracy,
 		I used a pre-trained neural network ResNet152  and create a very deep model, i.e. >150 layers. 
 		I then use google cloud service that allows us to use its GPU computation using
 		Tesla K80 to train the model and obtain 91% accuracy.</p>
 	
-	<h3>Handwritten-digit Recogniser </h3>
+	<h2>Handwritten-digit Recogniser </h2>
 	<p>I build a model that recognise a handwritten digit using simple multiple layer perceptron technique. 
 		I  train the model on MNIST dataset which is available here and obtain 80% accuracy.</p>
 	
-	<h3>Multi-Letter Simulation Game</h3>
+	<h2>Multi-Letter Simulation Game</h2>
 	<p>Together with my supervisor and the lead researcher in our group, we extend the framework of simulation
 		game that is used to approximate language inclusion between two Büchi automata into Multi-Letter
 		simulation game. This extended framework may  outperform  the  most  advanced 
 		Ramsey-based algorithms by two orders of magnitude. The result of our research is documented here
 		and the completed tool that we have build is available here. </p>
+	
+	<h2>Unbounded Buffered Simulation Game</h2>
+	<p>The core idea of Multi-Letter simulation game is in the flexibility of the second player. He 
+		does not need to give a synchronize reply and can delay his move by utilizing a buffer. 
+		We further extend this framework to the case where there is an unbounded buffer. We show that 
+		deciding the winner of such a game is still possible, but is computationally very hard. 
+		This result is published here. </p>
+	
+	<h2>Multiple  Buffered Simulation Game</h2>
+	<p>We further extend buffered simulation game to the case where there are multiple  buffers. This 
+		then introduce the possibility to characterize concurrency. We managed to show that 
+		deciding the winner of such a game is not possible. It is even already highly undecidable 
+		for a very simple case. </p>
+	</p>
 </div><!-- /.blurb -->
