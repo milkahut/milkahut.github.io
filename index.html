@@ -4,19 +4,24 @@ title: Milka Hutagalung
 ---
 <div class="blurb">
 	<h1>Milka Hutagalung!</h1>
-	<p>Here is some projects I've made</p>
+	<p>Here is some projects I have made during my free time (mostly related to data analysis  and deep learning) and 
+		during my PhD research (mostly related to automata theory and automatic verification)</p>
 	
 	<h2>Sentiment Analysis</h2>
 	<p>I build a model that read in movie reviews from IMDB and make prediction whether
-		it has positive or negative sentiment. Use a recurrent network so the model does not only consider
-		individual words, but also the order they appear in.</p>
+		it has positive or negative sentiment. I use recurrent neural network (RNN) 
+		that also employs long short-term memory (LSTM). This make the model  does not only consider
+		individual words, but also the order they appear in. I have trained  the model 
+		on 25.000 reviews. </p>
 	
 	<h2>Flower Classifier </h2>
-	<p>I Build a model that take a flower image and classify it over 102 types of flowers. Employ a 
-		pre-trained neural network ResNet152 and produce a deep model with >150 layers. Use google
-		cloud service to train the model and obtain 91% accuracy.</p>
+	<p>I build a model that take a flower image and classify it over 102 types of flowers. 
+		I consider the 102-Oxford Flower dataset that is available here. In order to have a high accuracy,
+		I used a pre-trained neural network ResNet152  and create a very deep model, i.e. >150 layers. 
+		I then use google cloud service that allows us to use its GPU computation using
+		Tesla K80 to train the model and obtain 91% accuracy.</p>
 	
 	<h2>Handwritten-digit Recogniser </h2>
-	<p>I build a model that recognise a handwritten digit using multiple layer perceptron technique. 
-		Train the model on MNIST dataset and obtain 80% accuracy.</p>
+	<p>I build a model that recognise a handwritten digit using simple multiple layer perceptron technique. 
+		I  train the model on MNIST dataset which is available here and obtain 80% accuracy.</p>
 </div><!-- /.blurb -->
