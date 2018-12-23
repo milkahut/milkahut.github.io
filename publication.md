@@ -1,3 +1,8 @@
+---
+layout: default
+title: Milka Hutagalung
+---
+
 # Publication
 Here are some list of publications I have made
 
