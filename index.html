@@ -5,7 +5,7 @@ title: Milka Hutagalung
 <div class="blurb">
 	<h1>Milka Hutagalung</h1>
 	<p>Here is some projects I have made during my free time (mostly related to data analysis  and deep learning) and 
-		during my PhD research (mostly related to automata theory and model-checking)</p>
+		during my PhD research (mostly related to automata theory and model-checking).</p>
 	
 	<h2><a href="https://github.com/milkahut/sentiment-analysis/blob/master/sentiment-analysis.ipynb">
 			Sentiment Analysis </a></h2>
@@ -24,14 +24,15 @@ title: Milka Hutagalung
 			102-Oxford Flower dataset</a>. 
 		In order to have a high accuracy,
 		I used a pre-trained neural network 
-		<a href="https://www.kaggle.com/pytorch/resnet152">ResNet152</a>  
+		<a href="https://www.kaggle.com/pytorch/resnet152/home">ResNet152</a>  
 		and create a very deep model, i.e. >150 layers. 
 		I then use google cloud service that allows us to use its GPU computation using
 		Tesla K80 to train the model and obtain 91% accuracy.</p>
 	
 	<h2>Handwritten-digit Recogniser </h2>
-	<p>I build a model that recognise a handwritten digit using simple multiple layer perceptron technique. 
-		I  train the model on MNIST dataset which is available here and obtain 80% accuracy.</p>
+	<p>I build a model that recognise a handwritten digit using a simple multiple layer perceptron technique. 
+		I  train the model on <a href="https://en.wikipedia.org/wiki/MNIST_database"> MNIST dataset</a> 
+		which is available <a href="http://yann.lecun.com/exdb/mnist/">here</a> and obtain 80% accuracy.</p>
 	
 	<h2><a href="https://link.springer.com/chapter/10.1007%2F978-3-642-37064-9_31"> Multi-Letter Simulation Game</a></h2>
 	<p>Together with my supervisor and the lead researcher in our group, we extend the framework of simulation
@@ -39,23 +40,26 @@ title: Milka Hutagalung
 		simulation game. This extended framework may  outperform  the  most  advanced 
 		Ramsey-based algorithms by two orders of magnitude. The result of our research is documented 
 		<a href="https://link.springer.com/chapter/10.1007%2F978-3-642-37064-9_31">here</a>
-		and the completed tool that we have build is available 
+		and the complete  tool that we have build is available 
 		<a href="https://github.com/milkahut/incremental_inclusion_testing"> here</a>. </p>
 	
 	<h2><a href ="https://arxiv.org/abs/1405.5609">Unbounded Buffered Simulation Game</a></h2>
 	<p>The core idea of Multi-Letter simulation game is in the flexibility of the second player. He 
 		does not need to give a synchronize reply and can delay his move by utilizing a buffer. 
 		We further extend this framework to the case where there is an unbounded buffer. 
-		We (Me, Martin Lange, and Etienne Lozes) managed to show that 
+		We (me, <a href="http://carrick.fmv.informatik.uni-kassel.de/~mlange/"> Martin Lange</a>, and 
+		<a href="http://www.i3s.unice.fr/~elozes/"> Etienne Lozes</a>) managed to show that 
 		deciding the winner of such a game is still possible, but is computationally very hard. 
 		This result is published 
 		<a href ="https://arxiv.org/abs/1405.5609">here</a>. </p>
 	
 	<h2><a href="https://doi.org/10.1016/j.ic.2018.09.008">Multiple  Buffered Simulation Game</a></h2>
 	<p>We further extend buffered simulation game to the case where there are multiple  buffers. This 
-		then introduce the possibility to characterize concurrency. We managed to show that 
+		then introduce the possibility to capture concurrency. We can use such a game 
+		to approximate verification of concurrent system. We managed to show that 
 		deciding the winner of such a game is not possible. It is even already 
 		<a href="https://doi.org/10.1016/j.ic.2018.09.008"> highly undecidable </a> 
-		for a very simple case. </p>
+		for a very simple case. <a href="https://doi.org/10.1016/j.ic.2018.09.008">
+		Here</a> is our overview.</p>
 	</p>
 </div><!-- /.blurb -->
