@@ -7,17 +7,25 @@ title: Milka Hutagalung
 	<p>Here is some projects I have made during my free time (mostly related to data analysis  and deep learning) and 
 		during my PhD research (mostly related to automata theory and model-checking)</p>
 	
-	<h2>Sentiment Analysis</h2>
+	<h2><a href="https://github.com/milkahut/sentiment-analysis/blob/master/sentiment-analysis.ipynb">
+			Sentiment Analysis </a></h2>
 	<p>I build a model that read in movie reviews from IMDB and make prediction whether
 		it has positive or negative sentiment. I use recurrent neural network (RNN) 
 		that also employs long short-term memory (LSTM). This make the model  does not only consider
 		individual words, but also the order they appear in. I have trained  the model 
-		on 25.000 reviews. </p>
+		on 25.000 reviews. 
+		<a href="https://github.com/milkahut/sentiment-analysis/blob/master/sentiment-analysis.ipynb">
+			Here </a> is the notebook.</p>
 	
 	<h2>Flower Classifier </h2>
 	<p>I build a model that take a flower image and classify it over 102 types of flowers. 
-		I consider the 102-Oxford Flower dataset that is available here. In order to have a high accuracy,
-		I used a pre-trained neural network ResNet152  and create a very deep model, i.e. >150 layers. 
+		I consider the 
+		<a href="http://www.robots.ox.ac.uk/~vgg/data/flowers/102/">
+			102-Oxford Flower dataset</a>. 
+		In order to have a high accuracy,
+		I used a pre-trained neural network 
+		<a href="https://www.kaggle.com/pytorch/resnet152">ResNet152</a>  
+		and create a very deep model, i.e. >150 layers. 
 		I then use google cloud service that allows us to use its GPU computation using
 		Tesla K80 to train the model and obtain 91% accuracy.</p>
 	
@@ -25,24 +33,29 @@ title: Milka Hutagalung
 	<p>I build a model that recognise a handwritten digit using simple multiple layer perceptron technique. 
 		I  train the model on MNIST dataset which is available here and obtain 80% accuracy.</p>
 	
-	<h2>Multi-Letter Simulation Game</h2>
+	<h2><a href="https://link.springer.com/chapter/10.1007%2F978-3-642-37064-9_31"> Multi-Letter Simulation Game</a></h2>
 	<p>Together with my supervisor and the lead researcher in our group, we extend the framework of simulation
 		game that is used to approximate language inclusion between two Büchi automata into Multi-Letter
 		simulation game. This extended framework may  outperform  the  most  advanced 
-		Ramsey-based algorithms by two orders of magnitude. The result of our research is documented here
-		and the completed tool that we have build is available here. </p>
+		Ramsey-based algorithms by two orders of magnitude. The result of our research is documented 
+		<a href="https://link.springer.com/chapter/10.1007%2F978-3-642-37064-9_31">here</a>
+		and the completed tool that we have build is available 
+		<a href="https://github.com/milkahut/incremental_inclusion_testing"> here</a>. </p>
 	
-	<h2>Unbounded Buffered Simulation Game</h2>
+	<h2><a href ="https://arxiv.org/abs/1405.5609">Unbounded Buffered Simulation Game</a></h2>
 	<p>The core idea of Multi-Letter simulation game is in the flexibility of the second player. He 
 		does not need to give a synchronize reply and can delay his move by utilizing a buffer. 
-		We further extend this framework to the case where there is an unbounded buffer. We show that 
+		We further extend this framework to the case where there is an unbounded buffer. 
+		We (Me, Martin Lange, and Etienne Lozes) managed to show that 
 		deciding the winner of such a game is still possible, but is computationally very hard. 
-		This result is published here. </p>
+		This result is published 
+		<a href ="https://arxiv.org/abs/1405.5609">here</a>. </p>
 	
-	<h2>Multiple  Buffered Simulation Game</h2>
+	<h2><a href="https://doi.org/10.1016/j.ic.2018.09.008">Multiple  Buffered Simulation Game</a></h2>
 	<p>We further extend buffered simulation game to the case where there are multiple  buffers. This 
 		then introduce the possibility to characterize concurrency. We managed to show that 
-		deciding the winner of such a game is not possible. It is even already highly undecidable 
+		deciding the winner of such a game is not possible. It is even already 
+		<a href="https://doi.org/10.1016/j.ic.2018.09.008"> highly undecidable </a> 
 		for a very simple case. </p>
 	</p>
 </div><!-- /.blurb -->
