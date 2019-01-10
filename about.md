@@ -3,11 +3,23 @@ layout: default
 title: Milka Hutagalung
 ---
 # About Me
-I recently finished my PhD from University of Kassel.
-I was working with the group of Theoretical Computer Science/Formal Methods 
-in the Department of Electrical Engineering and Computer Science, University of Kassel. 
-I was working under the supervision of Prof. Dr. Martin Lange. 
+I obtained my PhD from University of Kassel.
+I was in the group of Theoretical Computer Science/Formal Methods 
+in the Department of Electrical Engineering and Computer Science, University of Kassel
+led by Prof. Dr. Martin Lange. 
 
-My PhD research  is in the field of automata theory and formal verification,
-however in my free time I enjoy working with data analysis and do some
+My PhD research  is in the field of automata theory and formal verification.
+In my free time I enjoy working with data analysis and explore further
 application of deep learning.
+
+## Publication
+
+Here are some list of publications I have made. A complete list is available in [DBLP](https://dblp.org/pers/hd/h/Hutagalung:Milka), an online database for publications on computer science.
+
+1. Milka Hutagalung, Norbert Hundeshagen, Dietrich Kuske, Martin Lange, Etienne Lozes. [Multi-buffer Simulations: Decidability and complexity. Information and Computation](https://www.sciencedirect.com/science/article/pii/S0890540118301317?via%3Dihub), Volume 262, page 280-310, 2018.
+2. Milka Hutagalung. [Topological Characterisation of Multi-buffer Simulation](https://link.springer.com/chapter/10.1007%2F978-3-319-67089-8_8). 11th International Workshop on Reachability Problems 2017, London, UK. LNCS, volume 10506. Springer, page 101-117. 2017.
+3. Milka Hutagalung, Norbert Hundeshagen, Dietrich Kuske, Martin Lange, Etienne Lozes. [Multi-Buffer Simulations for Trace Language Inclusion](https://arxiv.org/abs/1609.04098). 7th International Symposium on Games, Automata, Logics, and Formal Verification 2016, Catania, Italy. EPTCS volume 226, 2016, page 213-227, 2016.
+4. Milka Hutagalung, Norbert Hundeshagen, Dietrich Kuske, Martin Lange, Etienne Lozes. [Two-Buffer Simulation Games](https://arxiv.org/abs/1608.00654). CASSTING Workshop, 2016 Eindhoven, NL. EPTCS volume 220, pages 27-38. 2016.
+5. Milka Hutagalung, Martin Lange. [Model Checking for String Problems](https://link.springer.com/chapter/10.1007%2F978-3-319-06686-8_15). 9th International Computer Science Symposium in Russia 2014, Moscow, Russia, 2014. LNCS, volume 8476. Springer, page 290-203. 2014
+6. Milka Hutagalung, Martin Lange, Etienne Lozes. [Buffered Simulation Games for Buchi Automata](https://arxiv.org/abs/1405.5609v1). 14th International Conference Automata and Formal Languages, Szeged, Hungary. EPTCS volume 151, page 286-300, 2014.
+7. Milka Hutagalung, Martin Lange, Etienne Lozes. [Revealing vs. Concealing: More Simulation Games for Büchi Inclusion](https://link.springer.com/chapter/10.1007%2F978-3-642-37064-9_31). 7th International Conference on Language and Automata Theory and Applications 2013, Bilbao, Spain. LNCS, volume 7810, Springer, pages 347-358, 2013.
