@@ -4,8 +4,8 @@ title: Milka Hutagalung
 ---
 # About Me
 I obtained my PhD from University of Kassel.
-I was in the group of Theoretical Computer Science/Formal Methods 
-in the Department of Electrical Engineering and Computer Science, University of Kassel
+I was in the group of  [Theoretical Computer Science/Formal Methods](https://www.uni-kassel.de/eecs/fachgebiete/fmv/team.html)
+in the Department of Electrical Engineering and Computer Science, University of Kassel,
 led by Prof. Dr. Martin Lange. 
 
 My PhD research  is in the field of automata theory and formal verification.
